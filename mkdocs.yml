@@ -1,0 +1,8 @@
+site_name: GmodHQ Docs
+
+pages:
+    - Home: index.md
+    - About: about.md
+theme: 
+docs_dir: mkdocs
+site_dir: docs
