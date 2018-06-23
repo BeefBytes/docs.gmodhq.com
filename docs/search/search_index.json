@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to GmodHQ docs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-gmodhq-docs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to GmodHQ docs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Mea huic\n\n\nFallitur caelo quae navis nefas\n\n\nLorem markdownum iuris, purpuraque certo admonitus, manu tua. Et certa caelique\nminatur. Nam suos, Ecce pavidam nec. Poma celat, proxima omine et omnes.\n\n\n\n\nAeque \nesto\n, lacertos nuda coniugis illis induitur et tremulo census cessisse\nvirgine turba! Dabat quos Fando quaeris sine. Enim vulnificus nostro iura\ncacumine inque. Iam columbas secura opacas qua ortuque barba iuvenes est\ncolatur.\n\n\n\n\nPuer tamen retices, fertilis retia. Est est interdum Polypemonis posco tecum\nSalmacis similis dissuadere Vestaque ero ipse \neiaculatus Europa pereo\n\nsparsisque. Nympha adoleret sedit nunc eunti facies recentibus parte poscebatur\nadulterium indoluit, erat erat: \nfatorum\n luce. Fuit nimia ait dedit nomen\nviolatus sub, est tamen sucos Iovi. Sine gradus, per illa fuissem meorum epytus\nspecus et, illo ora sic admirantes vidi.\n\n\nRetia hostes non\n\n\nEst prohibere Ceyx visa, partibus ut, notissima utinam, est ignes. Me silva\nloquentis quotiens has cratere sum optas corpora nos Iapygis Perseus; deque\nventi per vulnere nec per: mordebat. Restabat tamen artus everberat sunt\nnatalibus aliter spreto Sol manu verbaque. Mercurio inposuere inmunis fertilitas\noscula defendite labores crinem mare revulsum pependit. Excipit robore coeuntia\nte super ut subiecto quoque; sol spinas.\n\n\n\n\nAverso proxima clamore\n\n\nFecit rumpo frondibus summus offensaque igitur te\n\n\nSensim polluit aselli pugnatum positis quis\n\n\n\n\nEst sua magni dicuntur, trunci cacumine fessa mirator, rapere flavam modo. Luce\ndixit Aeneas, deos poena heu declinat; et color tenues veluti, ope infamis cur.\nEst tenebant quantus; semilacerque murum opaci!\n\n\nIbi velis mixta. Nascendi Praebuimus cornua, vultumque in obsistere vivusque\ncerteque gravibus retusa bobus. Sit tenuit \nlinguae ut meis\n parentem\n\nreverti\n emicuit non labens perquirere\nvident iunxit. Dolor muneraque pervenit caput spectabilis flamma ait ipse, tunc\nmihi famuli discite rigidum. Est rapiunt odere, Cnosiacas in date, Psamathen de\ngemma!", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#mea-huic", 
+            "text": "", 
+            "title": "Mea huic"
+        }, 
+        {
+            "location": "/about/#fallitur-caelo-quae-navis-nefas", 
+            "text": "Lorem markdownum iuris, purpuraque certo admonitus, manu tua. Et certa caelique\nminatur. Nam suos, Ecce pavidam nec. Poma celat, proxima omine et omnes.   Aeque  esto , lacertos nuda coniugis illis induitur et tremulo census cessisse\nvirgine turba! Dabat quos Fando quaeris sine. Enim vulnificus nostro iura\ncacumine inque. Iam columbas secura opacas qua ortuque barba iuvenes est\ncolatur.   Puer tamen retices, fertilis retia. Est est interdum Polypemonis posco tecum\nSalmacis similis dissuadere Vestaque ero ipse  eiaculatus Europa pereo \nsparsisque. Nympha adoleret sedit nunc eunti facies recentibus parte poscebatur\nadulterium indoluit, erat erat:  fatorum  luce. Fuit nimia ait dedit nomen\nviolatus sub, est tamen sucos Iovi. Sine gradus, per illa fuissem meorum epytus\nspecus et, illo ora sic admirantes vidi.", 
+            "title": "Fallitur caelo quae navis nefas"
+        }, 
+        {
+            "location": "/about/#retia-hostes-non", 
+            "text": "Est prohibere Ceyx visa, partibus ut, notissima utinam, est ignes. Me silva\nloquentis quotiens has cratere sum optas corpora nos Iapygis Perseus; deque\nventi per vulnere nec per: mordebat. Restabat tamen artus everberat sunt\nnatalibus aliter spreto Sol manu verbaque. Mercurio inposuere inmunis fertilitas\noscula defendite labores crinem mare revulsum pependit. Excipit robore coeuntia\nte super ut subiecto quoque; sol spinas.   Averso proxima clamore  Fecit rumpo frondibus summus offensaque igitur te  Sensim polluit aselli pugnatum positis quis   Est sua magni dicuntur, trunci cacumine fessa mirator, rapere flavam modo. Luce\ndixit Aeneas, deos poena heu declinat; et color tenues veluti, ope infamis cur.\nEst tenebant quantus; semilacerque murum opaci!  Ibi velis mixta. Nascendi Praebuimus cornua, vultumque in obsistere vivusque\ncerteque gravibus retusa bobus. Sit tenuit  linguae ut meis  parentem reverti  emicuit non labens perquirere\nvident iunxit. Dolor muneraque pervenit caput spectabilis flamma ait ipse, tunc\nmihi famuli discite rigidum. Est rapiunt odere, Cnosiacas in date, Psamathen de\ngemma!", 
+            "title": "Retia hostes non"
+        }
+    ]
+}

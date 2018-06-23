@@ -3,6 +3,7 @@ site_name: GmodHQ Docs
 pages:
     - Home: index.md
     - About: about.md
-theme: 
+theme:
+  name: 'material'
 docs_dir: mkdocs
 site_dir: docs
