@@ -1,3 +1,3 @@
-# DarkRP
+# DarkRP Documentation
 
 ## How to play

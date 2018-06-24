@@ -1,7 +1,8 @@
 # Global Rules
 
 !!! note
-    Rules may change and evolve as times goes by. We're open to community suggestions! 
+    Rules may change and evolve as times goes by. We're open to community suggestions!<br /> 
+    You can make suggestions here: https://forums.gmodhq.com/t/docs
 
 
 !!! warning

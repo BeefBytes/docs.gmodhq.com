@@ -1,4 +1,4 @@
-# GoFish
+# GoFish Documentation
 
 ## How to play
 

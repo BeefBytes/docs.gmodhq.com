@@ -2,53 +2,58 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to GmodHQ docs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Welcome to GmodHQ docs\n\n\nGmodHQ docs covers everything from how to play specific gamemodes to rules for each server.\n\n\nTODO\n\n\n\n\nFront page with categories\n\n\nFinish rules", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome-to-gmodhq-docs", 
-            "text": "For full documentation visit  mkdocs.org .", 
+            "text": "GmodHQ docs covers everything from how to play specific gamemodes to rules for each server.", 
             "title": "Welcome to GmodHQ docs"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#todo", 
+            "text": "Front page with categories  Finish rules", 
+            "title": "TODO"
         }, 
         {
             "location": "/about/", 
-            "text": "Mea huic\n\n\nFallitur caelo quae navis nefas\n\n\nLorem markdownum iuris, purpuraque certo admonitus, manu tua. Et certa caelique\nminatur. Nam suos, Ecce pavidam nec. Poma celat, proxima omine et omnes.\n\n\n\n\nAeque \nesto\n, lacertos nuda coniugis illis induitur et tremulo census cessisse\nvirgine turba! Dabat quos Fando quaeris sine. Enim vulnificus nostro iura\ncacumine inque. Iam columbas secura opacas qua ortuque barba iuvenes est\ncolatur.\n\n\n\n\nPuer tamen retices, fertilis retia. Est est interdum Polypemonis posco tecum\nSalmacis similis dissuadere Vestaque ero ipse \neiaculatus Europa pereo\n\nsparsisque. Nympha adoleret sedit nunc eunti facies recentibus parte poscebatur\nadulterium indoluit, erat erat: \nfatorum\n luce. Fuit nimia ait dedit nomen\nviolatus sub, est tamen sucos Iovi. Sine gradus, per illa fuissem meorum epytus\nspecus et, illo ora sic admirantes vidi.\n\n\nRetia hostes non\n\n\nEst prohibere Ceyx visa, partibus ut, notissima utinam, est ignes. Me silva\nloquentis quotiens has cratere sum optas corpora nos Iapygis Perseus; deque\nventi per vulnere nec per: mordebat. Restabat tamen artus everberat sunt\nnatalibus aliter spreto Sol manu verbaque. Mercurio inposuere inmunis fertilitas\noscula defendite labores crinem mare revulsum pependit. Excipit robore coeuntia\nte super ut subiecto quoque; sol spinas.\n\n\n\n\nAverso proxima clamore\n\n\nFecit rumpo frondibus summus offensaque igitur te\n\n\nSensim polluit aselli pugnatum positis quis\n\n\n\n\nEst sua magni dicuntur, trunci cacumine fessa mirator, rapere flavam modo. Luce\ndixit Aeneas, deos poena heu declinat; et color tenues veluti, ope infamis cur.\nEst tenebant quantus; semilacerque murum opaci!\n\n\nIbi velis mixta. Nascendi Praebuimus cornua, vultumque in obsistere vivusque\ncerteque gravibus retusa bobus. Sit tenuit \nlinguae ut meis\n parentem\n\nreverti\n emicuit non labens perquirere\nvident iunxit. Dolor muneraque pervenit caput spectabilis flamma ait ipse, tunc\nmihi famuli discite rigidum. Est rapiunt odere, Cnosiacas in date, Psamathen de\ngemma!", 
+            "text": "About\n\n\nIntroduction\n\n\nGmodHQ project focuses on professionalism which is lacking in the Garry's Mod community. \nOur vision is to create a server network with staff that are actually helpful and fair. \nThere's way too many abusive and selfish server owners out there.\n\n\nOur end goal is to be running a server for all of the most popular gamemodes on Garry's Mod. \nWe're starting off with Sandbox, DarkRP, GoFish and Stronghold servers. Donor and staff ranks are synced between all of the servers. \nBuy one rank, get perks on all of the current and future GmodHQ servers. \nWe don't believe having pay to win perks is a good idea, you will never see us sell staff ranks (like some servers do) or any other perks with huge advantages over other players. \nOur priority is server stability and staff quality before anything else. Custom content will be developed once we have control over those both priorities first. \nHowever, we're starting off with custom pages for user profiles, leaderboards and donations which can be found at GmodHQ.com.\n\n\nBut why?\n\n\nThis may seem like another generic gmod server out in the wild, which it partly is with a big focus on server stability and staff quality. \nIt's easy finding a gmod server to play on. Finding a server with quality staff is next to impossible. Corruption among staff is always going to be there no matter what. \nThe amount of work put into reducing it is what matters the most. The majority of servers punish their users for every little thing, punishing should be the last resort. \nOwners should design their servers in a way users aren't able to break rules in the first place. There's no perfect way of doing that, but most server owners don't even try.\n\n\nTechnical details\n\n\nEach GmodHQ game server and service is running inside of docker containers. Services include things such as nginx, reverse proxies, forums, jenkins, git, mysql and so on. \nAll of the game server files are located on git so every change is being tracked. Big changes are always tested on dev branch before being merged to master. \nOnce a change is made, jenkins is triggered to build and replace server container with the new one automatically.\n\n\nThis kind of setup is very flexible and compatible with most dedicated or virtual servers no matter OS. \nGmodHQ backs up all of our server data daily, backups are encrypted before leaving the dedi to be stored on the cloud. \nA week's worth of backups are always kept on server locally. Backups are also downloaded to offline hard drives from time to time. \nOur next step is making our setup compatible with kubernetes, but that's in the far future. The setup is a overkill for Garry's Mod servers, but it has its benefits in the long run.\n\n\nPersonal background\n\n\nI feel like knowing the owner a bit more tells more about the server than any generic server description. I have been running servers since I was around 14 years old (currently 22). \nMy first ever dedicated server was GoFish on gmod, it actually peaked at 30/30 players. From there I moved on to minecraft, which exploded and peaked at 1200 players online. \nThat server is actually still running on CowCraft.net for mostly nostalgic purposes. It's long dead with few dedicated players still playing. \nI have made many mistakes and bad decisions, I only mentioned successful projects. There were countless servers before them. The most important part is to learn from mistakes and do better next time.\n\n\nOne of the biggest reasons why I am launching GmodHQ is passion and nostalgia for Garry's Mod. As long as donations cover server and developer costs, I'm happy. \nI hate servers with abusive staff and pay to win perks with only goal of making as much money as possible. But that's the current state of the majority of gmod servers.", 
             "title": "About"
         }, 
         {
-            "location": "/about/#mea-huic", 
+            "location": "/about/#about", 
             "text": "", 
-            "title": "Mea huic"
+            "title": "About"
         }, 
         {
-            "location": "/about/#fallitur-caelo-quae-navis-nefas", 
-            "text": "Lorem markdownum iuris, purpuraque certo admonitus, manu tua. Et certa caelique\nminatur. Nam suos, Ecce pavidam nec. Poma celat, proxima omine et omnes.   Aeque  esto , lacertos nuda coniugis illis induitur et tremulo census cessisse\nvirgine turba! Dabat quos Fando quaeris sine. Enim vulnificus nostro iura\ncacumine inque. Iam columbas secura opacas qua ortuque barba iuvenes est\ncolatur.   Puer tamen retices, fertilis retia. Est est interdum Polypemonis posco tecum\nSalmacis similis dissuadere Vestaque ero ipse  eiaculatus Europa pereo \nsparsisque. Nympha adoleret sedit nunc eunti facies recentibus parte poscebatur\nadulterium indoluit, erat erat:  fatorum  luce. Fuit nimia ait dedit nomen\nviolatus sub, est tamen sucos Iovi. Sine gradus, per illa fuissem meorum epytus\nspecus et, illo ora sic admirantes vidi.", 
-            "title": "Fallitur caelo quae navis nefas"
+            "location": "/about/#introduction", 
+            "text": "GmodHQ project focuses on professionalism which is lacking in the Garry's Mod community. \nOur vision is to create a server network with staff that are actually helpful and fair. \nThere's way too many abusive and selfish server owners out there.  Our end goal is to be running a server for all of the most popular gamemodes on Garry's Mod. \nWe're starting off with Sandbox, DarkRP, GoFish and Stronghold servers. Donor and staff ranks are synced between all of the servers. \nBuy one rank, get perks on all of the current and future GmodHQ servers. \nWe don't believe having pay to win perks is a good idea, you will never see us sell staff ranks (like some servers do) or any other perks with huge advantages over other players. \nOur priority is server stability and staff quality before anything else. Custom content will be developed once we have control over those both priorities first. \nHowever, we're starting off with custom pages for user profiles, leaderboards and donations which can be found at GmodHQ.com.", 
+            "title": "Introduction"
         }, 
         {
-            "location": "/about/#retia-hostes-non", 
-            "text": "Est prohibere Ceyx visa, partibus ut, notissima utinam, est ignes. Me silva\nloquentis quotiens has cratere sum optas corpora nos Iapygis Perseus; deque\nventi per vulnere nec per: mordebat. Restabat tamen artus everberat sunt\nnatalibus aliter spreto Sol manu verbaque. Mercurio inposuere inmunis fertilitas\noscula defendite labores crinem mare revulsum pependit. Excipit robore coeuntia\nte super ut subiecto quoque; sol spinas.   Averso proxima clamore  Fecit rumpo frondibus summus offensaque igitur te  Sensim polluit aselli pugnatum positis quis   Est sua magni dicuntur, trunci cacumine fessa mirator, rapere flavam modo. Luce\ndixit Aeneas, deos poena heu declinat; et color tenues veluti, ope infamis cur.\nEst tenebant quantus; semilacerque murum opaci!  Ibi velis mixta. Nascendi Praebuimus cornua, vultumque in obsistere vivusque\ncerteque gravibus retusa bobus. Sit tenuit  linguae ut meis  parentem reverti  emicuit non labens perquirere\nvident iunxit. Dolor muneraque pervenit caput spectabilis flamma ait ipse, tunc\nmihi famuli discite rigidum. Est rapiunt odere, Cnosiacas in date, Psamathen de\ngemma!", 
-            "title": "Retia hostes non"
+            "location": "/about/#but-why", 
+            "text": "This may seem like another generic gmod server out in the wild, which it partly is with a big focus on server stability and staff quality. \nIt's easy finding a gmod server to play on. Finding a server with quality staff is next to impossible. Corruption among staff is always going to be there no matter what. \nThe amount of work put into reducing it is what matters the most. The majority of servers punish their users for every little thing, punishing should be the last resort. \nOwners should design their servers in a way users aren't able to break rules in the first place. There's no perfect way of doing that, but most server owners don't even try.", 
+            "title": "But why?"
+        }, 
+        {
+            "location": "/about/#technical-details", 
+            "text": "Each GmodHQ game server and service is running inside of docker containers. Services include things such as nginx, reverse proxies, forums, jenkins, git, mysql and so on. \nAll of the game server files are located on git so every change is being tracked. Big changes are always tested on dev branch before being merged to master. \nOnce a change is made, jenkins is triggered to build and replace server container with the new one automatically.  This kind of setup is very flexible and compatible with most dedicated or virtual servers no matter OS. \nGmodHQ backs up all of our server data daily, backups are encrypted before leaving the dedi to be stored on the cloud. \nA week's worth of backups are always kept on server locally. Backups are also downloaded to offline hard drives from time to time. \nOur next step is making our setup compatible with kubernetes, but that's in the far future. The setup is a overkill for Garry's Mod servers, but it has its benefits in the long run.", 
+            "title": "Technical details"
+        }, 
+        {
+            "location": "/about/#personal-background", 
+            "text": "I feel like knowing the owner a bit more tells more about the server than any generic server description. I have been running servers since I was around 14 years old (currently 22). \nMy first ever dedicated server was GoFish on gmod, it actually peaked at 30/30 players. From there I moved on to minecraft, which exploded and peaked at 1200 players online. \nThat server is actually still running on CowCraft.net for mostly nostalgic purposes. It's long dead with few dedicated players still playing. \nI have made many mistakes and bad decisions, I only mentioned successful projects. There were countless servers before them. The most important part is to learn from mistakes and do better next time.  One of the biggest reasons why I am launching GmodHQ is passion and nostalgia for Garry's Mod. As long as donations cover server and developer costs, I'm happy. \nI hate servers with abusive staff and pay to win perks with only goal of making as much money as possible. But that's the current state of the majority of gmod servers.", 
+            "title": "Personal background"
         }, 
         {
             "location": "/servers/gofish/", 
-            "text": "GoFish\n\n\nHow to play\n\n\nBasic fishingrod\n\n\nAdvanced fishingrod", 
+            "text": "GoFish Documentation\n\n\nHow to play\n\n\nBasic fishingrod\n\n\nAdvanced fishingrod", 
             "title": "GoFish"
         }, 
         {
-            "location": "/servers/gofish/#gofish", 
+            "location": "/servers/gofish/#gofish-documentation", 
             "text": "", 
-            "title": "GoFish"
+            "title": "GoFish Documentation"
         }, 
         {
             "location": "/servers/gofish/#how-to-play", 
@@ -67,13 +72,13 @@
         }, 
         {
             "location": "/servers/darkrp/", 
-            "text": "DarkRP\n\n\nHow to play", 
+            "text": "DarkRP Documentation\n\n\nHow to play", 
             "title": "DarkRP"
         }, 
         {
-            "location": "/servers/darkrp/#darkrp", 
+            "location": "/servers/darkrp/#darkrp-documentation", 
             "text": "", 
-            "title": "DarkRP"
+            "title": "DarkRP Documentation"
         }, 
         {
             "location": "/servers/darkrp/#how-to-play", 
@@ -82,12 +87,12 @@
         }, 
         {
             "location": "/rules/global/", 
-            "text": "Global Rules\n\n\n\n\nNote\n\n\nRules may change and evolve as times goes by. We're open to community suggestions! \n\n\n\n\n\n\nWarning\n\n\nKeep in mind ALL of the punishments are recorded and displayed on your profile for public to see. \nPlayers with excessive amount of punishments:\n\n\n\n\n\n\nWill stop receiving weekly rewards\n\n\nWill never be accepted as a staff member\n\n\nWill less likely to be trusted by other players\n\n\n\n\nUse common sense\n\n\nOur goal is not to bury players with a ton of rules they are forced to read. \nIf rule isn't listed in certain way, it doesn't mean you get a pass. \nIf you're uncertain about rule(s), contact a staff member.\n\n\nUse /report\n\n\nIf you need staff assistance or see someone breaking rules, the fastest method of contacting staff is by using /report. \nReports are displayed on a web page for all of the staff members. Meaning, even offline staff will be able to see your message.\n\n\nNo racism\n\n\nRacism is not tolerated.\n\n\nBe respectful\n\n\nBeing disrespectful will never lead to anything positive. If you're frustrated at a staff member or another player breaking rules. \nUse /report, don't try to handle situation yourself. We reward players for being respectful and helpful.\n\n\nNo threats and/or evil intent\n\n\nAny threats or intent to harm other players or the community will result in a punishment. Don't joke about DDoS, hacking or anything related. \nYou will be punished even if you're joking around. It would be unproductive for staff to figure out if player was joking or not. \n\n\nNo cheating\n\n\nUsing cheats, hacks or abusing glitches will not be tolerated. If you found a bug, report it and you may receive rewards depending on bug's severity.", 
+            "text": "Global Rules\n\n\n\n\nNote\n\n\nRules may change and evolve as times goes by. We're open to community suggestions!\n \nYou can make suggestions here: \nhttps://forums.gmodhq.com/t/docs\n\n\n\n\n\n\nWarning\n\n\nKeep in mind ALL of the punishments are recorded and displayed on your profile for public to see. \nPlayers with excessive amount of punishments:\n\n\n\n\n\n\nWill stop receiving weekly rewards\n\n\nWill never be accepted as a staff member\n\n\nWill less likely to be trusted by other players\n\n\n\n\nUse common sense\n\n\nOur goal is not to bury players with a ton of rules they are forced to read. \nIf rule isn't listed in certain way, it doesn't mean you get a pass. \nIf you're uncertain about rule(s), contact a staff member.\n\n\nUse /report\n\n\nIf you need staff assistance or see someone breaking rules, the fastest method of contacting staff is by using /report. \nReports are displayed on a web page for all of the staff members. Meaning, even offline staff will be able to see your message.\n\n\nNo racism\n\n\nRacism is not tolerated.\n\n\nBe respectful\n\n\nBeing disrespectful will never lead to anything positive. If you're frustrated at a staff member or another player breaking rules. \nUse /report, don't try to handle situation yourself. We reward players for being respectful and helpful.\n\n\nNo threats and/or evil intent\n\n\nAny threats or intent to harm other players or the community will result in a punishment. Don't joke about DDoS, hacking or anything related. \nYou will be punished even if you're joking around. It would be unproductive for staff to figure out if player was joking or not. \n\n\nNo cheating\n\n\nUsing cheats, hacks or abusing glitches will not be tolerated. If you found a bug, report it and you may receive rewards depending on bug's severity.", 
             "title": "Global"
         }, 
         {
             "location": "/rules/global/#global-rules", 
-            "text": "Note  Rules may change and evolve as times goes by. We're open to community suggestions!     Warning  Keep in mind ALL of the punishments are recorded and displayed on your profile for public to see. \nPlayers with excessive amount of punishments:    Will stop receiving weekly rewards  Will never be accepted as a staff member  Will less likely to be trusted by other players", 
+            "text": "Note  Rules may change and evolve as times goes by. We're open to community suggestions!  \nYou can make suggestions here:  https://forums.gmodhq.com/t/docs    Warning  Keep in mind ALL of the punishments are recorded and displayed on your profile for public to see. \nPlayers with excessive amount of punishments:    Will stop receiving weekly rewards  Will never be accepted as a staff member  Will less likely to be trusted by other players", 
             "title": "Global Rules"
         }, 
         {
@@ -122,23 +127,18 @@
         }, 
         {
             "location": "/rules/gofish/", 
-            "text": "Mea huic\n\n\nFallitur caelo quae navis nefas\n\n\nLorem markdownum iuris, purpuraque certo admonitus, manu tua. Et certa caelique\nminatur. Nam suos, Ecce pavidam nec. Poma celat, proxima omine et omnes.\n\n\n\n\nAeque \nesto\n, lacertos nuda coniugis illis induitur et tremulo census cessisse\nvirgine turba! Dabat quos Fando quaeris sine. Enim vulnificus nostro iura\ncacumine inque. Iam columbas secura opacas qua ortuque barba iuvenes est\ncolatur.\n\n\n\n\nPuer tamen retices, fertilis retia. Est est interdum Polypemonis posco tecum\nSalmacis similis dissuadere Vestaque ero ipse \neiaculatus Europa pereo\n\nsparsisque. Nympha adoleret sedit nunc eunti facies recentibus parte poscebatur\nadulterium indoluit, erat erat: \nfatorum\n luce. Fuit nimia ait dedit nomen\nviolatus sub, est tamen sucos Iovi. Sine gradus, per illa fuissem meorum epytus\nspecus et, illo ora sic admirantes vidi.\n\n\nRetia hostes non\n\n\nEst prohibere Ceyx visa, partibus ut, notissima utinam, est ignes. Me silva\nloquentis quotiens has cratere sum optas corpora nos Iapygis Perseus; deque\nventi per vulnere nec per: mordebat. Restabat tamen artus everberat sunt\nnatalibus aliter spreto Sol manu verbaque. Mercurio inposuere inmunis fertilitas\noscula defendite labores crinem mare revulsum pependit. Excipit robore coeuntia\nte super ut subiecto quoque; sol spinas.\n\n\n\n\nAverso proxima clamore\n\n\nFecit rumpo frondibus summus offensaque igitur te\n\n\nSensim polluit aselli pugnatum positis quis\n\n\n\n\nEst sua magni dicuntur, trunci cacumine fessa mirator, rapere flavam modo. Luce\ndixit Aeneas, deos poena heu declinat; et color tenues veluti, ope infamis cur.\nEst tenebant quantus; semilacerque murum opaci!\n\n\nIbi velis mixta. Nascendi Praebuimus cornua, vultumque in obsistere vivusque\ncerteque gravibus retusa bobus. Sit tenuit \nlinguae ut meis\n parentem\n\nreverti\n emicuit non labens perquirere\nvident iunxit. Dolor muneraque pervenit caput spectabilis flamma ait ipse, tunc\nmihi famuli discite rigidum. Est rapiunt odere, Cnosiacas in date, Psamathen de\ngemma!", 
+            "text": "GoFish Rules\n\n\nTODO..", 
             "title": "GoFish"
         }, 
         {
-            "location": "/rules/gofish/#mea-huic", 
+            "location": "/rules/gofish/#gofish-rules", 
             "text": "", 
-            "title": "Mea huic"
+            "title": "GoFish Rules"
         }, 
         {
-            "location": "/rules/gofish/#fallitur-caelo-quae-navis-nefas", 
-            "text": "Lorem markdownum iuris, purpuraque certo admonitus, manu tua. Et certa caelique\nminatur. Nam suos, Ecce pavidam nec. Poma celat, proxima omine et omnes.   Aeque  esto , lacertos nuda coniugis illis induitur et tremulo census cessisse\nvirgine turba! Dabat quos Fando quaeris sine. Enim vulnificus nostro iura\ncacumine inque. Iam columbas secura opacas qua ortuque barba iuvenes est\ncolatur.   Puer tamen retices, fertilis retia. Est est interdum Polypemonis posco tecum\nSalmacis similis dissuadere Vestaque ero ipse  eiaculatus Europa pereo \nsparsisque. Nympha adoleret sedit nunc eunti facies recentibus parte poscebatur\nadulterium indoluit, erat erat:  fatorum  luce. Fuit nimia ait dedit nomen\nviolatus sub, est tamen sucos Iovi. Sine gradus, per illa fuissem meorum epytus\nspecus et, illo ora sic admirantes vidi.", 
-            "title": "Fallitur caelo quae navis nefas"
-        }, 
-        {
-            "location": "/rules/gofish/#retia-hostes-non", 
-            "text": "Est prohibere Ceyx visa, partibus ut, notissima utinam, est ignes. Me silva\nloquentis quotiens has cratere sum optas corpora nos Iapygis Perseus; deque\nventi per vulnere nec per: mordebat. Restabat tamen artus everberat sunt\nnatalibus aliter spreto Sol manu verbaque. Mercurio inposuere inmunis fertilitas\noscula defendite labores crinem mare revulsum pependit. Excipit robore coeuntia\nte super ut subiecto quoque; sol spinas.   Averso proxima clamore  Fecit rumpo frondibus summus offensaque igitur te  Sensim polluit aselli pugnatum positis quis   Est sua magni dicuntur, trunci cacumine fessa mirator, rapere flavam modo. Luce\ndixit Aeneas, deos poena heu declinat; et color tenues veluti, ope infamis cur.\nEst tenebant quantus; semilacerque murum opaci!  Ibi velis mixta. Nascendi Praebuimus cornua, vultumque in obsistere vivusque\ncerteque gravibus retusa bobus. Sit tenuit  linguae ut meis  parentem reverti  emicuit non labens perquirere\nvident iunxit. Dolor muneraque pervenit caput spectabilis flamma ait ipse, tunc\nmihi famuli discite rigidum. Est rapiunt odere, Cnosiacas in date, Psamathen de\ngemma!", 
-            "title": "Retia hostes non"
+            "location": "/rules/gofish/#todo", 
+            "text": "", 
+            "title": "TODO.."
         }, 
         {
             "location": "/rules/darkrp/", 
