@@ -47,7 +47,7 @@
         }, 
         {
             "location": "/servers/gofish/", 
-            "text": "GoFish Documentation\n\n\nThe main objective of this gamemode is to fish! PVP is disabled in this gamemode, any way of hurting other players may be punishable!\n\n\nHow to play\n\n\nPress and hold \"Q\" to open the spawnmenu. Instead of spawning props you're able to spawn fishingrods!\nInside \"Items\" tab you can buy weapons, ammo and health. These may be needed for killing evil NPCs or annoying seagulls.\n\n\nBasic fishingrod\n\n\n\n\nSpawn rod, hook and bait from \"Basic Fishing\" section in Q spawnmenu.\n\n\nAttach rod to the hook by simply touching them together. Attach bait by touching the hook.\n\n\nMake sure your hook is inside the water, it may take up to 30 seconds to catch something.\n\n\nDetach your catch by either pressing E on it or walking over it. \n\n\n\n\n\n\nBasic fishingrod is able to catch evil (red) and good (blue) NPCs. You can control NPCs using NPC mover tool in your inventory.\nAny catched props can be sold using R key. There's a small chance of catching anything from \"Items\" menu too.\n\n\nAdvanced fishingrod", 
+            "text": "GoFish Documentation\n\n\nThe main objective of this gamemode is to fish! PVP is disabled in this gamemode, any way of hurting other players may be punishable!\n\n\nHow to play\n\n\nPress and hold \"Q\" to open the spawnmenu. Instead of spawning props you're able to spawn fishingrods!\nInside \"Items\" tab you can buy weapons, ammo and health. These may be needed for killing evil NPCs or annoying seagulls.\n\n\nBasic fishingrod\n\n\n\n\nSpawn a rod, hook and bait from \"Basic Fishing\" section in Q spawnmenu.\n\n\nAttach rod to the hook by simply touching them together. Attach bait by touching the hook.\n\n\nMake sure your hook is inside the water, it may take up to 30 seconds to catch something.\n\n\nDetach your catch by either pressing E on it or walking over it. \n\n\n\n\n\n\nBasic fishingrod is able to catch evil (red) and good (blue) NPCs. You can control NPCs using NPC mover tool in your inventory.\nAny catched props can be sold using R key. There's a small chance of catching anything from \"Items\" menu too.\n\n\nAdvanced fishingrod\n\n\nYou can find advanced rod under \"advanced fishing\" in Q spawnmenu. \nKeep in mind that you will lose the advanced rod if you die or disconnect from server.\n\n\nTODO: add more info\n\n\nStove\n\n\nStove is catched using pan bait. You can cook almost any catch to increase its value. \nSeagulls can be sold for up to 8.6k when fully cooked, normally they are worth 1k.", 
             "title": "GoFish"
         }, 
         {
@@ -62,13 +62,18 @@
         }, 
         {
             "location": "/servers/gofish/#basic-fishingrod", 
-            "text": "Spawn rod, hook and bait from \"Basic Fishing\" section in Q spawnmenu.  Attach rod to the hook by simply touching them together. Attach bait by touching the hook.  Make sure your hook is inside the water, it may take up to 30 seconds to catch something.  Detach your catch by either pressing E on it or walking over it.     Basic fishingrod is able to catch evil (red) and good (blue) NPCs. You can control NPCs using NPC mover tool in your inventory.\nAny catched props can be sold using R key. There's a small chance of catching anything from \"Items\" menu too.", 
+            "text": "Spawn a rod, hook and bait from \"Basic Fishing\" section in Q spawnmenu.  Attach rod to the hook by simply touching them together. Attach bait by touching the hook.  Make sure your hook is inside the water, it may take up to 30 seconds to catch something.  Detach your catch by either pressing E on it or walking over it.     Basic fishingrod is able to catch evil (red) and good (blue) NPCs. You can control NPCs using NPC mover tool in your inventory.\nAny catched props can be sold using R key. There's a small chance of catching anything from \"Items\" menu too.", 
             "title": "Basic fishingrod"
         }, 
         {
             "location": "/servers/gofish/#advanced-fishingrod", 
-            "text": "", 
+            "text": "You can find advanced rod under \"advanced fishing\" in Q spawnmenu. \nKeep in mind that you will lose the advanced rod if you die or disconnect from server.  TODO: add more info", 
             "title": "Advanced fishingrod"
+        }, 
+        {
+            "location": "/servers/gofish/#stove", 
+            "text": "Stove is catched using pan bait. You can cook almost any catch to increase its value. \nSeagulls can be sold for up to 8.6k when fully cooked, normally they are worth 1k.", 
+            "title": "Stove"
         }, 
         {
             "location": "/servers/darkrp/", 
