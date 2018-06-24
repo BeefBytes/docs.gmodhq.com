@@ -6,6 +6,3 @@
 ### Basic fishingrod
 
 ### Advanced fishingrod
-
-
-## Rules

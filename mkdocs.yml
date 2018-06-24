@@ -9,6 +9,12 @@ pages:
   - Servers:
     - GoFish: servers/gofish.md
     - DarkRP: servers/darkrp.md
+  - Rules: 
+    - Global: rules/global.md
+    - GoFish: rules/gofish.md
+    - DarkRP: rules/darkrp.md
+
+
 
 theme:
   name: 'material'
@@ -17,6 +23,9 @@ theme:
     accent: blue
   feature:
     tabs: true
+
+markdown_extensions:
+  - admonition
 
 extra:
   social:

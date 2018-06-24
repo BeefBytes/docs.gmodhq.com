@@ -1,3 +1,3 @@
 # DarkRP
 
-## Rules
+## How to play
