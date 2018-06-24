@@ -1,9 +1,32 @@
 site_name: GmodHQ Docs
-
-pages:
-    - Home: index.md
-    - About: about.md
-theme:
-  name: 'material'
+copyright: 'Copyright &copy; 2018 GmodHQ'
 docs_dir: mkdocs
 site_dir: docs
+
+pages:
+  - Home: index.md
+  - About: about.md
+  - Servers:
+    - GoFish: servers/gofish.md
+    - DarkRP: servers/darkrp.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: light blue
+    accent: blue
+  feature:
+    tabs: true
+
+extra:
+  social:
+    - type: globe
+      link: https://gmodhq.com/
+    - type: twitter
+      link: https://twitter.com/gmodhq/
+    - type: reddit
+      link: https://reddit.com/r/gmodhq/
+
+google_analytics:
+  - 'UA-119115779-1'
+  - 'auto'
