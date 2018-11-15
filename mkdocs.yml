@@ -3,7 +3,7 @@ copyright: 'Copyright &copy; 2018 GmodHQ'
 docs_dir: mkdocs
 site_dir: docs
 
-pages:
+nav:
   - Home: index.md
   - About: about.md
   - Servers:
